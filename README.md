@@ -71,5 +71,35 @@ Tại một thời điểm, chúng ta muốn phân phối project của ai đó,
 
 - Để forking một project, click vào button fork trong github repo.
 
-![alt text](https://raw.githubusercontent.com/NgaNguyenDuy/awesome/master/forking.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/NgaNguyenDuy/awesome/master/forking.png "Forking repo")
 
+Sau khi fork một repo, tức là repo đó đã tồn tại trên github repo của chúng ta, chúng ta có thể clone repo đó về local repo. Sử dụng lệnh sau:
+```
+$ git clone https://github.com/your_username/awesome.git
+# Clone repo mà chúng ta đã fork về github repo của mình vào thự mục hiện tại.
+# your_username/awesome.git là repo chúng ta fork về, còn NgaNguyenDuy/awesome là repo gốc.
+```
+
+Khi một repo đã được clone, nó sẽ có một remote `origin` trỏ đến repo mà chúng ta fork về github của mình, chứ không phải là repo gốc. Để theo dõi (keep track) repo gốc mà đã fork, chúng ta cần add một remote khác có tên là `upstream`:
+```
+$ cd awesome
+
+$ git remote add upstream https://github.com/NgaNguyenDuy/awesome.git
+# Gán repo gốc vào một remote tên là upstream
+
+$ git fetch upstream
+```
+> push: push thay đổi từ repository local lên repository server
+> fetch: cập nhật thay đổi từ repository server về repository local
+> pull/rebase: sao chép source code từ server về local workspace (tương đương checkout của SVN)
+
+Như vậy chúng ta đã fork thành công một repo về local repo.
+Chúng ta có thể làm gì tiếp theo:
+- Sao chép những thay đổi ở repo gốc: `git fetch upstream`
+- Nhóm bất kì điều gì thay đổi vào local repo: `git merge upstream/master`
+- Sao chép tất cả commit từ repo gốc về local repo.
+
+Ngài ra, chúng ta còn có thể tạo một nhánh (brand) để test những tính năng mới, hay ý tưỏng mới mà không làm ảnh hưởng đến repo gốc. Nếu chúng ta muốn đóng góp trở lại repo gốc, có thể sử dụng môt pull request.
+
+Cơ bản về git có lẽ như vậy là ổn. Trong tuts sau, chúng ta sẽ đi sau hơn vào cách tạo và sử dụng nhánh, cách gửi pull request. Còn một phần nhỏ nữa là cách sử dụng submodule.
+> Submodule cho phép chúng ta nhúng một repo vào trong repo chính của mình.
