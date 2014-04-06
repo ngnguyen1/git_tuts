@@ -1,13 +1,14 @@
 ## Hướng dẫn sử dụng git trên Linux & Window ##
 
-#### Nội dung: ####
-___
+### Nội dung: ###
 
 * Setup git
 * Create a repository
 * Fork a repository
 
-1. Setup git
+
+
+#### Setup git ####
 
 
 
@@ -15,7 +16,7 @@ ___
 
 
 
-2. Create a repository
+#### Create a repository ####
 
 
 
@@ -26,4 +27,4 @@ ___
 
 
 
-3. Fork a repository
+#### Fork a repository ####
