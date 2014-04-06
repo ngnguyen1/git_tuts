@@ -6,11 +6,12 @@
 * Create a repository
 * Fork a repository
 
-Để cài đặt git:
+### Để cài đặt git: ###
   * Linux: Cài đặt qua command line (tùy vào từng distro): `sudo apt-get install git`
   * Windows: Download và cài đặt github for window: [Github for window](https://github-windows.s3.amazonaws.com/GitHubSetup.exe "Github for Window")
 
-1. Setup Git
+
+#### Setup Git ####
 
 
 
@@ -18,7 +19,7 @@
 
 
 
-2. Create a repository
+#### Create a repository ####
 
 
 
@@ -29,4 +30,4 @@
 
 
 
-3. Fork a repository
+#### Fork a repository ####
