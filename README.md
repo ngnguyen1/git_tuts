@@ -90,7 +90,9 @@ $ git remote add upstream https://github.com/NgaNguyenDuy/awesome.git
 $ git fetch upstream
 ```
 > push: push thay đổi từ repository local lên repository server
+
 > fetch: cập nhật thay đổi từ repository server về repository local
+
 > pull/rebase: sao chép source code từ server về local workspace (tương đương checkout của SVN)
 
 Như vậy chúng ta đã fork thành công một repo về local repo.
