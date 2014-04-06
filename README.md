@@ -9,8 +9,8 @@
 
 
 1. Setup Git
-  * Linux: Cài đặt qua command line (tùy vào từng distro)
-  `sudo apt-get install git`
+  * Linux: Cài đặt qua command line (tùy vào từng distro): `sudo apt-get install git`
+  * Windows: Download và cài đặt github for window: [Github for window](https://github-windows.s3.amazonaws.com/GitHubSetup.exe "Github for Window")
 
 
 
