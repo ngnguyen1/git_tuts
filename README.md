@@ -9,8 +9,8 @@
 
 
 1. Setup Git
-* Linux: Cài đặt qua command line (tùy vào từng distro)
-`sudo apt-get install git`
+  * Linux: Cài đặt qua command line (tùy vào từng distro)
+  `sudo apt-get install git`
 
 
 
