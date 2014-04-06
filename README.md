@@ -1,1 +1,1 @@
-* Hướng dẫn sử dụng git.
+# Hướng dẫn sử dụng git.
