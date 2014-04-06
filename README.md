@@ -8,7 +8,7 @@
 
 
 
-#### Setup git ####
+1. Setup Git
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-#### Create a repository ####
+2. Create a repository
 
 
 
@@ -27,4 +27,4 @@
 
 
 
-#### Fork a repository ####
+3. Fork a repository
