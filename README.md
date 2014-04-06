@@ -61,6 +61,15 @@ $ git remote add origin https://github.com/username/Hello-World.git
 # Tạo một remote tên là 'origin' đến Github repo của chúng ta.
 
 $ git push orgin master.
-# Gửi commit trong nhánh master lên github.
+# Gửi commit trong nhánh master lên github. (Chúng ta sẽ tìm hiểu sau hơn về nhánh trong tuts lần sau.)
 ```
+Bây giờ chúng ta có thể view file README.md trên Github Repo.
+
 #### Fork a repository ####
+
+Tại một thời điểm, chúng ta muốn phân phối project của ai đó, hay chúng ta muốn sử dụng project của một ai đố để bắt đầu. Điều này được định nghĩa là `forking`. Trong phần này, chúng ta sẽ forking một repo tên là awesome.
+
+- Để forking một project, click vào button fork trong github repo.
+
+![alt text](https://github.com/NgaNguyenDuy/awesome/blob/master/forking.png "Logo Title Text 1")
+
