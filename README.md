@@ -71,5 +71,5 @@ Tại một thời điểm, chúng ta muốn phân phối project của ai đó,
 
 - Để forking một project, click vào button fork trong github repo.
 
-![alt text](https://github.com/NgaNguyenDuy/awesome/blob/master/forking.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/NgaNguyenDuy/awesome/master/forking.png "Logo Title Text 1")
 
