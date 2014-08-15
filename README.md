@@ -101,7 +101,22 @@ Chúng ta có thể làm gì tiếp theo:
 - Nhóm bất kì điều gì thay đổi vào local repo: `git merge upstream/master`
 - Sao chép tất cả commit từ repo gốc về local repo.
 
-Ngài ra, chúng ta còn có thể tạo một nhánh (brand) để test những tính năng mới, hay ý tưỏng mới mà không làm ảnh hưởng đến repo gốc. Nếu chúng ta muốn đóng góp trở lại repo gốc, có thể sử dụng môt pull request.
+#### Lam viec voi branch
+
+Các nhánh (branches) được dùng để phát triển tính năng tách riêng ra từ những nhánh khác. Nhánh master là nhánh "mặc định" khi bạn tạo một repository. Sử dụng các nhánh khác tri đang trong giai đoạn phát triển và merge trở lại nhánh master một khi đã hoàn tất.
+
+- De xem toan bo nhanh cua repo hien tai:
+`git branch -a`
+
+- De tao nhanh moi:
+`git branch <branch-name>`
+
+- De chuyen branch:
+`git checkout <ten-nhanh>`
+
+- De nhap nhanh con vao nhanh hien tai:
+`git merge <ten nhanh>`
+
 
 Cơ bản về git có lẽ như vậy là ổn. Trong tuts sau, chúng ta sẽ đi sau hơn vào cách tạo và sử dụng nhánh, cách gửi pull request. Còn một phần nhỏ nữa là cách sử dụng submodule.
 > Submodule cho phép chúng ta nhúng một repo vào trong repo chính của mình.
