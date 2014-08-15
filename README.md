@@ -71,7 +71,7 @@ Tại một thời điểm, chúng ta muốn phân phối project của ai đó,
 
 - Để forking một project, click vào button fork trong github repo.
 
-![alt text](https://raw.githubusercontent.com/NgaNguyenDuy/awesome/master/forking.png "Forking repo")
+![forking](https://raw.githubusercontent.com/NgaNguyenDuy/git_tuts/master/images/gitfork.png "Forking repo")
 
 Sau khi fork một repo, tức là repo đó đã tồn tại trên github repo của chúng ta, chúng ta có thể clone repo đó về local repo. Sử dụng lệnh sau:
 ```
