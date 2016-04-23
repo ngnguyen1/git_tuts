@@ -101,7 +101,7 @@ Chúng ta có thể làm gì tiếp theo:
 - Nhóm bất kì điều gì thay đổi vào local repo: `git merge upstream/master`
 - Sao chép tất cả commit từ repo gốc về local repo.
 
-#### Làm việc với nhánh(brand)
+#### Làm việc với nhánh(branch)
 
 Các nhánh (branches) được dùng để phát triển tính năng tách riêng ra từ những nhánh khác. Nhánh master là nhánh "mặc định" khi bạn tạo một repository. Sử dụng các nhánh khác tri đang trong giai đoạn phát triển và merge trở lại nhánh master một khi đã hoàn tất.
 
@@ -111,7 +111,7 @@ Các nhánh (branches) được dùng để phát triển tính năng tách riê
 - Để tạo một nhánh mới:
 `git branch <branch-name>`
 
-- Để chuyển brand: 
+- Để chuyển branch: 
 `git checkout <ten-nhanh>`
 
 - Để nhập(merge) nhánh con vào nhánh hiện tại: 
