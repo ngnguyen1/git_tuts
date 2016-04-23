@@ -49,7 +49,8 @@ git init
 touch README.md
 # Tạo một file README.md trong thự mục Hello-World
 ```
-Sử dụng lệnh `git add README.md` để theo dõi tệp tin.
+Để theo dõi một tệp tin nào đó, chúng ta sử dụng lệnh `git add`. Ví dụ muốn theo dõi tệp tin Readme.md, chúng ta sử dụng lệnh:
+`git add README.md`
 Sau đó commit file: `git commit -m "first commit"`.
 Chúng ta có thể suy nghĩ commit giống như là trạng thái của toàn bộ project - code, file, mọi thứ tại một thời điểm cụ thể.
 Good, mọi thứ đã hoàn thành trên local repo của chúng ta. Để kết nối từ local repo đến github account, chúng ta phải thiết lập một remote cho repo và push các commit lên đó.
